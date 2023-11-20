@@ -1,0 +1,89 @@
+[
+ {
+  "name": {
+   "en": "Sammy",
+   "de": "Valerian"
+  },
+  "description": {
+   "en": "greatest promo",
+   "de": "super angebot"
+  },
+  "cartDiscounts": [
+   {
+    "typeId": "cart-discount",
+    "id": "good"
+   },
+   {
+    "typeId": "cart-discount",
+    "id": "better"
+   },
+   {
+    "typeId": "cart-discount",
+    "id": "best"
+   }
+  ],
+  "cartPredicate": "value more than 20",
+  "isActive": "true",
+  "maxApplications": "10",
+  "maxApplicationsPerCustomer": "2",
+  "code": "FOORmyR9f"
+ },
+ {
+  "name": {
+   "en": "Sammy",
+   "de": "Valerian"
+  },
+  "description": {
+   "en": "greatest promo",
+   "de": "super angebot"
+  },
+  "cartDiscounts": [
+   {
+    "typeId": "cart-discount",
+    "id": "good"
+   },
+   {
+    "typeId": "cart-discount",
+    "id": "better"
+   },
+   {
+    "typeId": "cart-discount",
+    "id": "best"
+   }
+  ],
+  "cartPredicate": "value more than 20",
+  "isActive": "true",
+  "maxApplications": "10",
+  "maxApplicationsPerCustomer": "2",
+  "code": "FOO9aJKtq"
+ },
+ {
+  "name": {
+   "en": "Sammy",
+   "de": "Valerian"
+  },
+  "description": {
+   "en": "greatest promo",
+   "de": "super angebot"
+  },
+  "cartDiscounts": [
+   {
+    "typeId": "cart-discount",
+    "id": "good"
+   },
+   {
+    "typeId": "cart-discount",
+    "id": "better"
+   },
+   {
+    "typeId": "cart-discount",
+    "id": "best"
+   }
+  ],
+  "cartPredicate": "value more than 20",
+  "isActive": "true",
+  "maxApplications": "10",
+  "maxApplicationsPerCustomer": "2",
+  "code": "FOOc6q8rm"
+ }
+]

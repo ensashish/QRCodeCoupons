@@ -1,0 +1,28 @@
+{
+  "name": "qrcodegenes",
+  "version": "1.0.0",
+  "description": "learning",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate-codes": "discount-code-gen -i ./utils/constants/CouponCodeInput.json -o ./utils/constants/OutputCouponCodes.json -q 3 -l 9 -p FOO",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "child_process": "^1.0.2",
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "mongoose": "^8.0.1",
+    "qrcode": "^1.5.3"
+  },
+  "devDependencies": {
+    "@commercetools/discount-code-generator": "^3.0.0",
+    "nodemon": "^3.0.1"
+  }
+}
