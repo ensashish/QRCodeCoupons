@@ -1,17 +1,7 @@
 import express from 'express';
-import { allCouponsFromDB, generateCoupons, generateQRFromText, getOutputCouponJson, getQR, saveCouponsInDB } from '../controllers/couponController.js';
+import { generateQRFromText } from '../controllers/couponController.js';
 
 const router = express.Router();
-
-router.get('/getqr', getQR);
-
-router.get('/getCouponCodes', getOutputCouponJson);
-
-router.get('/generate-codes', generateCoupons);
-
-router.get('/save', saveCouponsInDB);
-
-router.get('/get-coupons-with-qr', allCouponsFromDB);
 
 router.post("/scan", generateQRFromText);
 
