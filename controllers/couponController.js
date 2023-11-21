@@ -20,7 +20,7 @@ export const generateQRFromText =  (req, res) => {
         if(err) return console.log("error occurred")
      
         // Printing the generated code
-        console.log(QRcode)
+        //console.log(QRcode)
     })
     const url = req.body.url;
 
@@ -34,7 +34,7 @@ export const generateQRFromText =  (req, res) => {
     qr.toDataURL(url, (err, src) => {
         if (err) res.send("Error occured");
       
-        console.log("src::>> ",src);
+        //console.log("src::>> ",src);
         // Let us return the QR code image as our response and set it to be the source used in the webpage
         res.render("scan", { src });
     });
