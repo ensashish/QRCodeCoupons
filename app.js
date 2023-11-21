@@ -2,14 +2,12 @@ import express from 'express';
 import bp from 'body-parser';
 import couponRouter from './routes/coupon.js';
 import dotenv from 'dotenv';
-import dbConnection from './utils/dbConnect.js';
 import passport from 'passport';
 import {authTodo} from './auth.js';
 import session from 'express-session';
 
 const app = express();
 dotenv.config();
-dbConnection();
 authTodo();
 app.set("view engine", "ejs");
 app.use(bp.urlencoded({ extended: false }));
